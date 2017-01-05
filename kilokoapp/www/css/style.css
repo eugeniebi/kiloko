@@ -1,0 +1,119 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+/* PAGE ACCUEIL */
+.accueil{
+	height: 700px;
+	background: url(../img/fondapp2.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+.logo{width: 30%;}
+
+.login{ margin-top: 50%;}  
+
+/* MENU */
+
+.logo2{    
+    width: 73%;
+    height: 123%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 17px;
+}
+
+.bar-stable.bar.bar-header{    
+	border-color: white;
+	background-color: white;
+}
+
+/* FIN */
+
+
+.list{
+    padding-top: 30px;}
+
+
+
+
+/* BOUTON VALIDER */
+.button{
+    background-color: #FDE4D9;
+    border-radius: 18px;
+    width: 66%;
+    color: #F8966C;
+    margin-top: 20px;
+    border-width: 2px;
+}
+
+.button.activated{background-color: white;
+    border-color: white;}
+
+/* FIN */
+
+/* CHAMPS DE SAISIE */
+
+.item.item-input{
+    border-color: white;
+	background-color: transparent;
+	border-radius: 18px;
+    width: 66%;
+    color: white;
+    margin-top: 20px;
+    border-width: 2px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* CHAMPS DE SAISIE COULEUR TEXTE*/
+
+.input-label{color: white;}
+
+/* FIN */
+
+
+
+/* PAGE MON PROFIL */
+
+.monprofil{
+    height: 700px;
+	background: url(../img/profil.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* FIN */
+
+
+/* PAGE QUESTIONNAIRE */
+
+.questionnaire{
+	height: 700px;
+	background: url(../img/question.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.questionnaire h2{ 
+    font-size: 16px;
+    text-align: center;
+}
+/* FIN */
+
+
+/* CHECKBOX QUESTIONNAIRE */
+.item.item-checkbox.ng-empty.ng-valid{
+	border-color: transparent;
+    background-color: transparent;
+}
+.item.item-checkbox.ng-valid.ng-not-empty{
+	border-color: transparent;
+    background-color: transparent;
+}
+.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before{    
+    background: #F78351;
+    border-color: white;
+}
+
+/* FIN */
