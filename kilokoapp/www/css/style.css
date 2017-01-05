@@ -12,7 +12,9 @@
 }
 .logo{width: 30%;}
 
-.login{ margin-top: 50%;}  
+.login{ margin-top: 50%;} 
+
+.login button{margin-top: 20%;}
 
 /* MENU */
 
@@ -83,6 +85,10 @@
     background-size: cover;
 }
 .monprofil2{}
+
+.photoprofil{
+    width: 44%;
+} 
 /* FIN */
 
 
