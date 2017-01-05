@@ -32,50 +32,70 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'AppCtrl'
   })
 
-  .state('app.monprofil', {
-    url: '/monprofil',
+  .state('app.home', {
+    url: '/home',
     views: {
       'menuContent': {
-        templateUrl: 'templates/monprofil.html'
+        templateUrl: 'templates/home.html',
+        controller: 'HomeCtrl'
       }
     }
   })
 
-  .state('app.browse', {
-      url: '/browse',
+  .state('app.monprofil', {
+      url: '/monprofil',
       views: {
         'menuContent': {
-          templateUrl: 'templates/browse.html'
+          templateUrl: 'templates/monprofil.html',
+          controller: 'MonprofilCtrl'
         }
       }
     })
-    .state('app.search', {
-      url: '/search',
+    .state('app.mesmatchs', {
+      url: '/mesmatchs',
       views: {
         'menuContent': {
-          templateUrl: 'templates/search.html'
+          templateUrl: 'templates/mesmatchs.html',
+          controller: 'MesmatchsCtrl'
         }
       }
     })
-    .state('app.playlists', {
-      url: '/playlists',
+    .state('app.questionnaire', {
+      url: '/questionnaire',
       views: {
         'menuContent': {
-          templateUrl: 'templates/playlists.html',
-          controller: 'PlaylistsCtrl'
+          templateUrl: 'templates/questionnaire.html',
+          controller: 'QuestionnaireCtrl'
         }
       }
     })
-
-  .state('app.single', {
-    url: '/playlists/:playlistId',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/playlist.html',
-        controller: 'PlaylistCtrl'
+    .state('app.faq', {
+      url: '/faq',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/faq.html',
+          controller: 'FaqCtrl'
+        }
       }
-    }
-  });
+    })
+    .state('app.langues', {
+      url: '/langues',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/langues.html',
+          controller: 'LanguesCtrl'
+        }
+      }
+    })
+    .state('app.conditions', {
+      url: '/conditions',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/conditions.html',
+          controller: 'ConditionsCtrl'
+        }
+      }
+    });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/home');
 });
