@@ -60,5 +60,11 @@ angular.module('starter.controllers', [])
 .controller('LanguesCtrl', function($scope, $stateParams) {
 })
 
+.controller('ChoixCtrl', function($scope, $stateParams) {
+})
+
+.controller('JpcolocCtrl', function($scope, $stateParams) {
+})
+
 .controller('ConditionsCtrl', function($scope, $stateParams) {
 });

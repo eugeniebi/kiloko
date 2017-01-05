@@ -87,6 +87,24 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+    .state('app.choix', {
+      url: '/choix',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/choix.html',
+          controller: 'ChoixCtrl'
+        }
+      }
+    })
+    .state('app.jpcoloc', {
+      url: '/jpcoloc',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/jpcoloc.html',
+          controller: 'JpcolocCtrl'
+        }
+      }
+    })
     .state('app.conditions', {
       url: '/conditions',
       views: {

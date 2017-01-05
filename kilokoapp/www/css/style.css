@@ -46,7 +46,7 @@
     border-radius: 18px;
     width: 66%;
     color: #F8966C;
-    margin-top: 20px;
+
     border-width: 2px;
 }
 
@@ -86,11 +86,14 @@
     background-position: center;
     background-size: cover;
 }
-.monprofil2{}
+.monprofil2 button{margin-top: 13%;}
 
 .photoprofil{
     width: 44%;
 } 
+
+.monprofil2 label.item.item-checkbox.ng-empty.ng-valid{padding-left: 0px;}
+.monprofil2 label.item.item-checkbox.ng-valid.ng-not-empty{padding-left: 0px;}
 /* FIN */
 
 
@@ -125,6 +128,76 @@
 
 /* FIN */
 
+/* PAGE QUESTIONNAIRE */
+.choix{margin-top: 30%;}
+/* FIN PAGE QUESTIONNAIRE */
+
+/* PAGE JPCOLOC */
+.jpcoloc{
+    height: 700px;
+    background: url(../img/question.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+}
+.jpcoloc h2{
+    font-size: 19px;
+    color: #fc835b;
+    text-transform: uppercase;
+}
+.jpcoloc h3{
+    font-size: 16px;
+    margin-right: 50%;
+    color: white;
+    margin-top: 0px;
+}
+.jpcoloc h4{
+    text-align: left;
+    margin-top: 16%;
+    color: white;
+    margin-left: 12px;
+}
+
+.list2 label.item.item-input {
+    border-color: transparent;
+    background-color: transparent;
+    border-radius: 24px;
+    width: 77%;
+    color: white;
+    margin-top: 20px;
+    border-width: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(253, 228, 217, 0.61);
+    margin-top: 0px;
+
+}
+.list2{margin-top: 13%;}
+p{
+    text-align: initial;
+    font-size: 10px;
+    margin-left: 13%;
+    margin-right: 11%;
+    line-height: initial;
+    color: white;
+}
+
+.add{ 
+    padding-left: 17px;
+    padding-right: 19px;
+}    
+.add h3{ 
+    font-size: 14px; 
+    margin-right: 38px
+} 
+
+.map{    
+    width: 80%;
+}
+/* FIN PAGE JPCOLOC */
+
+/* PAGE CHOIX */
+.choix button{margin-top: 13%;}
+/* FIN PAGE CHOIX */
 
 /* CHECKBOX QUESTIONNAIRE */
 .item.item-checkbox.ng-empty.ng-valid{
@@ -140,4 +213,5 @@
     border-color: white;
 }
 
+.item.item-complex{border-color: white;}
 /* FIN */
