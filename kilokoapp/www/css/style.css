@@ -50,6 +50,8 @@
     border-width: 2px;
 }
 
+
+
 .button.activated{background-color: white;
     border-color: white;}
 
@@ -105,6 +107,22 @@
     font-size: 16px;
     text-align: center;
 }
+
+.suivant{
+    background-color: #FDE4D9;
+    border-radius: 18px;
+    width: 66%;
+    color: WHITE;
+    margin-top: 20px;
+    border-width: 0px;
+    padding: 5%;
+}
+
+.bt-right {
+    float: right;
+}
+
+
 /* FIN */
 
 

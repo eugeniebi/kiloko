@@ -1,22 +1,33 @@
 <ion-view view-title="QUESTIONNAIRE">
   <ion-content>
     <div class="questionnaire">
+
       <ion-list>
-        <h2>Pendant ma Kolokation, je veux :</h2>
+        <h2>Pendant ma colocation, je veux :</h2>
         <ion-checkbox ng-model="filter.yellow">Rencontrer de nouvelles personnes, créer de nouvelles amitiés.</ion-checkbox>
         <ion-checkbox ng-model="filter.pink">Uniquement d’un point de vu économique, c’est plus intéressant. </ion-checkbox>
-        <ion-checkbox ng-model="filter.pink">Que la colocation se passe bien, mais chacun son chez soit. </ion-checkbox>
-        <ion-checkbox ng-model="filter.pink">On partage les factures, l’appart mais chacun fait sa vie. </ion-checkbox>
+        <ion-checkbox ng-model="filter.black">Que la colocation se passe bien, mais chacun son chez soit. </ion-checkbox>
+        <ion-checkbox ng-model="filter.green">On partage les factures, l’appart mais chacun fait sa vie. </ion-checkbox>
       </ion-list>
 
-    
-
-
-
-
+      <ion-list>
+        <h2>Le matin :</h2>
+        <ion-checkbox ng-model="filter.lala">J’ai la tête dans le c**, on ne me parle pas.</ion-checkbox>
+        <ion-checkbox ng-model="filter.sisi">On discute tranquillement, on partage (s’il on peut) le pti déj ensemble.</ion-checkbox>
+        <ion-checkbox ng-model="filter.baba">Je regarde la télé en prenant mon petit déjeuner.</ion-checkbox>
+      </ion-list>
     	
     </div>
 
-
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <button class="suivant">Précédent</button>
+      </div>
+    <div class="col">
+      <button class="bt-right suivant">Suivant</button>
+    </div>
+    </div>
+  </div>
   </ion-content>
 </ion-view>
