@@ -4,7 +4,7 @@
 
 /* PAGE ACCUEIL */
 .accueil{
-	height: 700px;
+	height: 100%;
 	background: url(../img/fondapp2.jpg) no-repeat center center fixed;
     background-position: center;
     background-size: cover;
