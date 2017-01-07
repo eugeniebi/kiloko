@@ -76,8 +76,6 @@
 
 /* FIN */
 
-
-
 /* PAGE MON PROFIL */
 
 .monprofil{
@@ -86,7 +84,7 @@
     background-position: center;
     background-size: cover;
 }
-.monprofil2 button{margin-top: 13%;}
+.monprofil2 button{margin-top: 6%;}
 
 .photoprofil{
     width: 44%;
@@ -134,8 +132,8 @@
 
 /* PAGE JPCOLOC */
 .jpcoloc{
-    height: 700px;
-    background: url(../img/question.jpg) no-repeat center center fixed;
+    height: auto;
+    background: url(../img/fondgrand6.jpg) no-repeat center center fixed;
     background-position: center;
     background-size: cover;
 }
@@ -193,7 +191,93 @@ p{
 .map{    
     width: 80%;
 }
+
+
 /* FIN PAGE JPCOLOC */
+
+/* PAGE JPCOLOC3 */
+.monprofil3 h2{text-align: center;}
+.list3 h3{margin-left: 16px;}
+.list3 span{margin-left: 64px;}
+
+/* FIN PAGE JPCOLOC3 */
+
+/* PAGE JPCOLOC4 */
+
+.carre{width: 70%;
+    height: 100px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 19px;
+    margin-bottom: 23px;
+    }
+.carre p {
+    color: black;
+    text-align: center;
+}
+/* FIN PAGE JPCOLOC4 */
+
+/* PAGE JPCOLOC5 */
+
+.jpcoloc5{
+    height:700px;
+    background: url(../img/fondgrand6.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+}
+.jpcoloc5 h2{
+    font-size: 19px;
+    color: #fc835b;
+    text-transform: uppercase;
+}
+.jpcoloc5 h3{
+    font-size: 16px;
+    margin-right: 50%;
+    color: white;
+    margin-top: 0px;
+}
+.jpcoloc5 h4{
+    text-align: left;
+    margin-top: 16%;
+    color: white;
+    margin-left: 12px;
+}
+
+.carre4 label.item.item-input {
+    /* border-color: white; */
+    /* background-color: transparent; */
+    /* border-radius: 18px; */
+    width: 100%;
+    height: 100%;
+    /* color: white; */
+    /* margin-top: 20px; */
+    /* border-width: 2px; */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+}
+.carre4 input{
+    width: 100%;
+    height: 100%;
+
+}
+
+.carre4{width: 70%;
+    height: 100px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 19px;
+    margin-bottom: 23px;
+    }
+.carre4 p {
+    color: black;
+    text-align: center;
+}
+.jpcoloc5 div.container{margin-top: 71%;}
+    
+/* FIN PAGE JPCOLOC5 */
+
 
 /* PAGE CHOIX */
 .choix button{margin-top: 13%;}

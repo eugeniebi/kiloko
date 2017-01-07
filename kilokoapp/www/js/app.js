@@ -105,6 +105,42 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+    .state('app.jpcoloc2', {
+      url: '/jpcoloc2',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/jpcoloc2.html',
+          controller: 'Jpcoloc2Ctrl'
+        }
+      }
+    })
+    .state('app.jpcoloc3', {
+      url: '/jpcoloc3',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/jpcoloc3.html',
+          controller: 'Jpcoloc3Ctrl'
+        }
+      }
+    })
+    .state('app.jpcoloc4', {
+      url: '/jpcoloc4',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/jpcoloc4.html',
+          controller: 'Jpcoloc4Ctrl'
+        }
+      }
+    })
+    .state('app.jpcoloc5', {
+      url: '/jpcoloc5',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/jpcoloc5.html',
+          controller: 'Jpcoloc5Ctrl'
+        }
+      }
+    })  
     .state('app.conditions', {
       url: '/conditions',
       views: {

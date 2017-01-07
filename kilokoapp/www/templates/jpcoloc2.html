@@ -1,0 +1,66 @@
+<ion-view view-title="">
+	 <ion-content>
+	  	<div class='jpcoloc'>
+	  		<div class="text-center">
+	    		<div class="monprofil2">
+                   <h2>Je propose une coloc</h2>
+                        <h4>ETAPE 2</h4>
+						    <div class="list2">
+							  	<h3>Votre Adresse</h3>
+                                  <div class="container">
+					 					<div class="row">
+										  <div class="col"><ion-checkbox ng-model="filter.m2">2 mois</ion-checkbox></div>
+										  <div class="col"><ion-checkbox ng-model="filter.m6">6 mois</ion-checkbox></div>
+										</div>
+										<div class="row">
+										  <div class="col"><ion-checkbox ng-model="filter.m4">4 mois</ion-checkbox></div>
+										  <div class="col"><ion-checkbox ng-model="filter.m9">9 mois</ion-checkbox></div>
+										</div>
+										<div class="row">
+										  <div class="col"><ion-checkbox ng-model="filter.m12">12 mois</ion-checkbox></div>
+										  <div class="col"><ion-checkbox ng-model="filter.m1">+ 1 ans</ion-checkbox></div>
+										</div>
+								  </div>
+							       <h3>Budget par mois</h3>
+								   <label class="item item-input">
+								    <input type="text" placeholder="ex: 450€">
+								   </label>
+								   <h3>Quel type de logement</h3>
+								   <div class="row">
+										  <div class="col"><ion-checkbox ng-model="filter.a">Appart</ion-checkbox></div>
+										  <div class="col"><ion-checkbox ng-model="filter.m">Maison</ion-checkbox></div>
+								   </div>
+								   <h3>Nombre de chambre</h3>
+								   <label class="item item-input">
+								    <input type="text" placeholder="ex: 2 chambres">
+								   </label>
+								   <h3>Combien de m2</h3>
+								   <label class="item item-input">
+								    <input type="text" placeholder="ex: 50m2">
+								   </label>
+								   <h3>Combien de Colocataire pouvez-vous accueillir ?</h3>
+								   <label class="item item-input">
+								    <input type="text" placeholder="ex: 1 coloc">
+								   </label>
+								   <h3>Combien de salle de bain ?</h3>
+								   <label class="item item-input">
+								    <input type="text" placeholder="ex: 1 salle de bain">
+								   </label>
+	    					</div>
+
+                    </div>
+	    		</div>
+	    		<div class="container">
+				    <div class="row">
+				         <div class="col">
+				             <a ui-sref="app.jpcoloc1"><button class="suivant">Précédent</button></a>
+				         </div>
+					     <div class="col">
+					         <a ui-sref="app.jpcoloc3"><button class="bt-right suivant">Suivant</button></a>
+					     </div>
+				    </div>
+				</div>
+			</div>
+	 	</div>
+	</ion-content>
+</ion-view>
