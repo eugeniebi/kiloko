@@ -78,5 +78,8 @@ angular.module('starter.controllers', [])
 .controller('Jpcoloc5Ctrl', function($scope, $stateParams) {
 })
 
+.controller('JpcolocfinalCtrl', function($scope, $stateParams) {
+})
+
 .controller('ConditionsCtrl', function($scope, $stateParams) {
 });

@@ -92,6 +92,8 @@
 
 .monprofil2 label.item.item-checkbox.ng-empty.ng-valid{padding-left: 0px;}
 .monprofil2 label.item.item-checkbox.ng-valid.ng-not-empty{padding-left: 0px;}
+
+
 /* FIN */
 
 
@@ -148,6 +150,13 @@
     color: white;
     margin-top: 0px;
 }
+
+h5{
+    margin-right: 39px;
+    color: white;
+    font-size: 16px;
+}
+
 .jpcoloc h4{
     text-align: left;
     margin-top: 16%;
@@ -169,7 +178,10 @@
     margin-top: 0px;
 
 }
-.list2{margin-top: 13%;}
+.list2{
+    margin-top: 13%;
+}
+
 p{
     text-align: initial;
     font-size: 10px;
@@ -195,6 +207,20 @@ p{
 
 /* FIN PAGE JPCOLOC */
 
+/* PAGE JPCOLOC2 */
+.list2 h3 {
+    display: flex;
+    width: 100%;
+    margin: 10px 0px 10px 38px;
+    font-size: 16px;
+}
+
+label.item.item-checkbox.ng-empty.ng-valid{
+    color:white;
+}
+/* FIN PAGE JPCOLOC2 */
+
+
 /* PAGE JPCOLOC3 */
 .monprofil3 h2{text-align: center;}
 .list3 h3{margin-left: 16px;}
@@ -216,6 +242,8 @@ p{
     color: black;
     text-align: center;
 }
+
+
 /* FIN PAGE JPCOLOC4 */
 
 /* PAGE JPCOLOC5 */
@@ -233,7 +261,6 @@ p{
 }
 .jpcoloc5 h3{
     font-size: 16px;
-    margin-right: 50%;
     color: white;
     margin-top: 0px;
 }
@@ -245,21 +272,13 @@ p{
 }
 
 .carre4 label.item.item-input {
-    /* border-color: white; */
-    /* background-color: transparent; */
-    /* border-radius: 18px; */
     width: 100%;
     height: 100%;
-    /* color: white; */
-    /* margin-top: 20px; */
-    /* border-width: 2px; */
-    /* margin-right: auto; */
-    /* margin-left: auto; */
 }
+
 .carre4 input{
     width: 100%;
     height: 100%;
-
 }
 
 .carre4{width: 70%;
@@ -278,6 +297,46 @@ p{
     
 /* FIN PAGE JPCOLOC5 */
 
+/* PAGE JPCOLOCFINAL */
+.logementfinal h2{
+    font-size: 19px;
+    color: #fc835b;
+    text-transform: uppercase;
+}
+
+.carre5 label.item.item-input {
+    width: 100%;
+    height: 100%;
+    margin-top: 29%;
+
+}
+
+.carre5 input{
+    width: 100%;
+    height: 100%;
+}
+
+.carre5{
+    width: 70%;
+    height: 100px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 19px;
+    margin-bottom: 23px;
+
+    }
+
+.carre5 p {
+    color: black;
+    text-align: center;
+}
+
+.photoapp{
+    width: 70%;
+}
+
+/* FIN PAGE JPCOLOCFINAL */
 
 /* PAGE CHOIX */
 .choix button{margin-top: 13%;}

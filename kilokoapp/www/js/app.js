@@ -140,7 +140,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           controller: 'Jpcoloc5Ctrl'
         }
       }
-    })  
+    }) 
+    .state('app.jpcolocfinal', {
+      url: '/jpcolocfinal',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/jpcolocfinal.html',
+          controller: 'JpcolocfinalCtrl'
+        }
+      }
+    }) 
     .state('app.conditions', {
       url: '/conditions',
       views: {
