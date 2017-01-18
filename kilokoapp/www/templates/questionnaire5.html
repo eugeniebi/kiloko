@@ -1,0 +1,32 @@
+<ion-view view-title="QUESTIONNAIRE">
+  <ion-content>
+    <div class="questionnaire">
+
+      <ion-list>
+        <h2>La télé :</h2>
+        <ion-checkbox ng-model="filter.yellow">Tous les soirs.</ion-checkbox>
+        <ion-checkbox ng-model="filter.pink">De temps en temps.</ion-checkbox>
+        <ion-checkbox ng-model="filter.black">Jamais.</ion-checkbox>
+      </ion-list>
+
+      <ion-list>
+        <h2>La music :</h2>
+        <ion-checkbox ng-model="filter.lala">Dans sa chambre.</ion-checkbox>
+        <ion-checkbox ng-model="filter.sisi">Où tu veux.</ion-checkbox>
+        
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a ui-sref="app.questionnaire4"><button class="bt-right suivant">Précédent</button>
+            </a>
+          </div>
+          <div class="col">
+            <a ui-sref="app.questionnaire6"><button class="bt-right suivant">Suivant</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    	
+    </div>
+  </ion-content>
+</ion-view>

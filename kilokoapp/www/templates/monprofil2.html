@@ -1,0 +1,60 @@
+<ion-view view-title="">
+	<ion-content scroll="false">
+	  	<div class='monprofil'>
+	  		<div class="text-center">
+	    		<div class="monprofil2">
+	    			<img src="img/logo.png" alt="photo" class="logo">
+	    			<div class="propo">
+	    			<img src="img/photoprofil.png" alt="photo" class="photoprofil">
+	    			</div>
+	 				<div class="list2">
+						<label class="item item-input">
+						    <span class="input-label">Où ?</span>
+						    <input type="text">
+						</label>
+						<h3>Pour une durée de :</h3>
+                        	<div class="container">
+								<div class="row">
+									<div class="col"><ion-checkbox ng-model="filter.m2">2 mois</ion-checkbox>
+									</div>
+									<div class="col"><ion-checkbox ng-model="filter.m6">6 mois</ion-checkbox>
+									</div>
+								</div>
+								<div class="row">
+							  		<div class="col"><ion-checkbox ng-model="filter.m4">4 mois</ion-checkbox>
+							  		</div>
+									<div class="col"><ion-checkbox ng-model="filter.m9">9 mois</ion-checkbox>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col"><ion-checkbox ng-model="filter.m12">12 mois</ion-checkbox></div>
+									<div class="col"><ion-checkbox ng-model="filter.m1">+ 1 ans</ion-checkbox>
+									</div>
+								</div>
+							</div>
+						<div class="container">
+							<div class="col">
+								<h3>Budget par mois</h3>
+								<label class="item item-input">
+									<input type="text" placeholder="ex: 450€">
+								</label>
+							</div>
+						</div>
+						<div class="container">
+			    			<div class="row">
+		        				<div class="col">
+				        			<a ui-sref="app.monprofil"><button class="suivant">Précédent</button>
+				        			</a>
+				    			</div>
+								<div class="col">
+				        			<a ui-sref="app.questionnaire"><button class="bt-right suivant">Suivant go pour le questionnaire !</button>
+				        			</a>
+				    			</div>
+							</div>
+						</div>
+					</div>
+	    		</div>
+			</div>
+	 	</div>
+	</ion-content>
+</ion-view>

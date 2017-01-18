@@ -51,6 +51,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+  .state('app.monprofil2', {
+      url: '/monprofil2',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/monprofil2.html',
+          controller: 'Monprofil2Ctrl'
+        }
+      }
+    })
     .state('app.mesmatchs', {
       url: '/mesmatchs',
       views: {
@@ -66,6 +75,42 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         'menuContent': {
           templateUrl: 'templates/questionnaire.html',
           controller: 'QuestionnaireCtrl'
+        }
+      }
+    })
+    .state('app.questionnaire2', {
+      url: '/questionnaire2',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/questionnaire2.html',
+          controller: 'Questionnaire2Ctrl'
+        }
+      }
+    })
+    .state('app.questionnaire3', {
+      url: '/questionnaire3',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/questionnaire3.html',
+          controller: 'Questionnaire3Ctrl'
+        }
+      }
+    })
+    .state('app.questionnaire4', {
+      url: '/questionnaire4',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/questionnaire4.html',
+          controller: 'Questionnaire4Ctrl'
+        }
+      }
+    })
+    .state('app.questionnaire5', {
+      url: '/questionnaire5',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/questionnaire5.html',
+          controller: 'Questionnaire5Ctrl'
         }
       }
     })

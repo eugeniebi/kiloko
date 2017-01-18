@@ -1,0 +1,37 @@
+<ion-view view-title="QUESTIONNAIRE">
+  <ion-content>
+    <div class="questionnaire">
+
+      <ion-list>
+        <h2>Le midi :</h2>
+        <ion-checkbox ng-model="filter.yellow">Je ne déjeune pas (ou qu’occasionnellement) à la maison.</ion-checkbox>
+        <ion-checkbox ng-model="filter.pink">On peut déjeuner ensemble.</ion-checkbox>
+        <ion-checkbox ng-model="filter.black">Chacun mange de son coté. </ion-checkbox>
+      </ion-list>
+
+      <ion-list>
+        <h2>Le soir :</h2>
+        <ion-checkbox ng-model="filter.lala">On peut dîner ensemble.</ion-checkbox>
+        <ion-checkbox ng-model="filter.sisi">Chacun dine de son coté.</ion-checkbox>
+        <ion-checkbox ng-model="filter.baba">Ca dépend des fois.</ion-checkbox>
+        <ion-checkbox ng-model="filter.babi">On dîne devant la télé.</ion-checkbox>
+        <ion-checkbox ng-model="filter.bobi">De temps en temps avec un film.</ion-checkbox>
+        <ion-checkbox ng-model="filter.bobo">Jamais.</ion-checkbox>
+      </ion-list>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a ui-sref="app.questionnaire2"><button class="bt-right suivant">Précédent</button>
+            </a>
+          </div>
+          <div class="col">
+            <a ui-sref="app.questionnaire3"><button class="bt-right suivant">Suivant</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    	
+    </div>
+  </ion-content>
+</ion-view>

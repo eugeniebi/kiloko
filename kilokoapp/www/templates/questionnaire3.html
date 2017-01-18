@@ -1,0 +1,34 @@
+<ion-view view-title="QUESTIONNAIRE">
+  <ion-content>
+    <div class="questionnaire">
+
+      <ion-list>
+        <h2>Le frigo :</h2>
+        <ion-checkbox ng-model="filter.yellow">On partage tout, course commune, on divise les frais.</ion-checkbox>
+        <ion-checkbox ng-model="filter.pink">Chacun son étage, chacun ses courses.</ion-checkbox>
+        <ion-checkbox ng-model="filter.black">Chacun participe. </ion-checkbox>
+      </ion-list>
+
+      <ion-list>
+        <h2>La cuisine :</h2>
+        <ion-checkbox ng-model="filter.lala">Je ne sais pas cuisiner.</ion-checkbox>
+        <ion-checkbox ng-model="filter.sisi">Je cuisine mais que des choses simples .</ion-checkbox>
+        <ion-checkbox ng-model="filter.baba">Je suis le Don Juan des chefs cuisto.</ion-checkbox>
+        <ion-checkbox ng-model="filter.babi">J’ai un régime spécifique.</ion-checkbox>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a ui-sref="app.questionnaire2"><button class="bt-right suivant">Précédent</button>
+            </a>
+          </div>
+          <div class="col">
+            <a ui-sref="app.questionnaire4"><button class="bt-right suivant">Suivant</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    	
+    </div>
+  </ion-content>
+</ion-view>

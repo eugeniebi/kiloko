@@ -48,10 +48,25 @@ angular.module('starter.controllers', [])
 .controller('MonprofilCtrl', function($scope, $stateParams) {
 })
 
+.controller('Monprofil2Ctrl', function($scope, $stateParams) {
+})
+
 .controller('MesmatchsCtrl', function($scope, $stateParams) {
 })
 
 .controller('QuestionnaireCtrl', function($scope, $stateParams) {
+})
+
+.controller('Questionnaire2Ctrl', function($scope, $stateParams) {
+})
+
+.controller('Questionnaire3Ctrl', function($scope, $stateParams) {
+})
+
+.controller('Questionnaire4Ctrl', function($scope, $stateParams) {
+})
+
+.controller('Questionnaire5Ctrl', function($scope, $stateParams) {
 })
 
 .controller('FaqCtrl', function($scope, $stateParams) {
